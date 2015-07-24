@@ -55,18 +55,17 @@ body {
 .grow {
   padding: 5px 5px 5px 5px;
   border-radius: 10px;
-  height: 49px;
+  height: 40px;
   width: 75%;
   margin: 0 auto;
   position: relative;
-  transition: min-height 0.5s;
-  -webkit-transition: min-height 0.7s;
+  transition: height 0.5s;
+  -webkit-transition: height 0.7s;
   text-align: center;
   overflow: hidden;
 }
 .grow:hover {
-	display: block;
-	height: 275px;
+	height: 310px;
 }
 
 h2 {
